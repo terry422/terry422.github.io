@@ -1,0 +1,49 @@
+.mainpage-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.main-image-outer-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: clip;
+}
+
+.main-image-inner-container {
+  flex: 0 1 1023px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-image {
+  flex: 1;
+  position: relative;
+  border-radius: 36px;
+  max-width: 1536px;
+  max-height: 1024px;
+  background-image: url("/static/img/snow.jpg");
+  background-position: 70% 30%;
+  overflow-y: auto;
+}
+
+.menu {
+  position: absolute;
+  backdrop-filter: blur(10px);
+  top: 160px;
+  left: 10%;
+  font-size: 2rem;
+}
+
+.title {
+  position: absolute;
+  top: 48px;
+  left: 10%;
+  font-size: 48px;
+}
+
+.title h1 {
+  font-size: inherit;
+}

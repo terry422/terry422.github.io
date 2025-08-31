@@ -1,0 +1,15 @@
+.main-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.note-list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.note-list {
+  flex: 0 1 800px;
+  max-width: 800px;
+}

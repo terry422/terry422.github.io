@@ -11,6 +11,11 @@
 
 .post-body {
   flex: 0 1 800px;
-  max-width: 800px;
+  width: 800px;
+  max-width: calc(100vw - 20px);
   padding: 0 10px 0 10px;
+}
+
+.post-body pre {
+  overflow-x: scroll;
 }

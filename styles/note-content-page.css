@@ -1,0 +1,21 @@
+.main-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.note-body-container {
+  display: flex;
+  justify-content: center;
+}
+
+.note-body {
+  flex: 0 1 800px;
+  width: 800px;
+  max-width: calc(100vw - 20px);
+  padding: 0 10px 0 10px;
+}
+
+.note-body pre {
+  overflow-x: scroll;
+}
